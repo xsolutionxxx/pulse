@@ -1,0 +1,24 @@
+.slider
+    padding: 108px 0 107px
+
+.swiper
+    width: 100%
+    height: 100%
+    &-slide
+        text-align: center
+        font-size: 18px
+        background: #fff
+        display: flex
+        justify-content: center
+        align-items: center
+        img
+            display: block
+            min-width: 750px
+            min-height: 530px
+            object-fit: cover
+    &-button-prev
+        transform: rotate(180deg)
+    &-button-next:after,
+    &-rtl,
+    &-button-prev:after
+        content: ''
