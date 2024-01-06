@@ -1,18 +1,15 @@
-@import "base/variables"
+@import 'base/variables'
 @import 'base/animations'
-/* html
-    box-sizing: border-box */
-
-/* *, *::after, *::before
-    box-sizing: inherit */
+@import 'base/adaptive'
 
 *
     font-family: 'Museo Sans Cyrl', sans-serif
 
 .container
     position: relative
-    max-width: 950px
+    max-width: 1000px
     margin: 0 auto
+    padding: 0 25px
 
 @import 'blocks/promo'
 @import 'blocks/header'
